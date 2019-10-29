@@ -17,6 +17,9 @@ Steps to read data.json are the following:
  * Projects read are counted and the number is displayed on top. 
  * Scroll buttons are enabled for user convenience.
  * Simplistic design is aimed with user-friendly interface.
+ 
+## Built With
+ * Vanilla JavaScript
 
 ## Authors
 
