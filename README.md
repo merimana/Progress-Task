@@ -4,7 +4,7 @@ SPA application to read data from JSON file.
 
 ### Running Application
 
-Solution is contained within Task_Solution folder. To run the application double-click the index.html file. From then on, navigation and functionalities are implemented through buttons. There are two main buttons: Browse and Read.
+Solution of application for Part 1 is contained within Task_Solution folder. To run the application double-click the index.html file. From then on, navigation and functionalities are implemented through buttons. There are two main buttons: Browse and Read.
 
 Steps to read data.json are the following:
 1. Click on Browse to browse data file.
