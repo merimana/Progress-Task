@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Read JSON</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+
+    <link   rel="stylesheet"  href="css/style.css"   			type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Add all scripts needed for the app -->
+    <script src="js/app.js"></script>
+
+</head>
+
+<body>
+        
+  <form id="jsonFile" enctype="multipart/form-data" method="post">
+        <input type="file"  id="f" class="finput"/>
+        <label for="f" class="btn btn0" onclick="updateMsg()"><i class="fa fa-file"></i> Browse</label> 
+        <input type="button" class="btn btn1" onclick="readFile()" value="Read"/>
+        <label id=fname>Select a file.</label>  
+      </br></br>
+  </form>
+        
+  <h2>PROJECTS <label id=projNum></label></h2>
+  <div id="div_tbl">
+    <table id=tbl_data>    
+      <thead>
+      <tr>
+        <th>Id</th>
+        <th>Company Name</th>
+        <th>Comments</th>
+        <th>Publish Date</th>
+        <th>Contact Name</th>
+        <th>Title</th>
+        <th>Location City</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    </table>
+    <p id="copyright">&copy; Mariana Manova 2019</p>
+  </div>      
+
+</body>
+
+</html>

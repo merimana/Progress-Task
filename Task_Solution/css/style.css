@@ -1,0 +1,120 @@
+body {
+	background-color:white;
+	font-family: Calibri;
+	font-size: 12px;	
+}
+
+.btn {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 10px 30px;
+  border-radius: 26px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.btn0{
+	background-color: black;
+	color:white;
+}
+
+.btn1:hover{
+  background-color: black;
+  color: white;
+}
+
+#fname{
+  color: grey;
+  font-size: 14px;
+}
+
+.finput {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+#div_tbl{
+  width: 95%; 
+  height: 1000px;
+}
+
+#tbl_data{
+  background-color: white;
+  border-spacing: 0;
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 26px;
+  padding: 20px 30px;
+}
+
+tbody{
+  display:block;
+  height:6px; /*to be overriten*/
+  overflow:auto; /*scroll*/
+}
+
+tr{
+  display:block;
+}
+
+th, td {
+  text-align: left;
+  width:200px; /*fixed width*/
+  font-size: 16px;
+}
+
+th {
+  font-size: 18px;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+#copyright{
+  text-align: right;
+}
+
+.collapsible {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 26px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.active, .collapsible:hover {
+  background-color: black;
+  color: white;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  display:none;
+}
