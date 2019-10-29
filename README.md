@@ -14,9 +14,9 @@ Steps to read data.json are the following:
 ### Additional Features
 
  * A text message can be viewed on the right side of the buttons showing status, or file name, or error messages.
- * Projects read are counted and the number is displayed on top 
- * Scroll buttons are enabled for user convenience
- * Simplistic design is aimed with user friendly interface
+ * Projects read are counted and the number is displayed on top. 
+ * Scroll buttons are enabled for user convenience.
+ * Simplistic design is aimed with user-friendly interface.
 
 ## Authors
 
