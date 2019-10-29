@@ -20,7 +20,7 @@ Steps to read data.json are the following:
 
 ## Authors
 
-* **Mariana Manova** - *Original work*
+* **Mariana Manova** - *Main contributor*
 
 ## License
 
