@@ -1,8 +1,4 @@
-# Project Title
-
-Read JSON
-
-### Project Description
+# Read JSON
 
 SPA application to read data from JSON file.
 
