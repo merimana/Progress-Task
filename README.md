@@ -13,8 +13,12 @@ Solution is contained within Task_Solution folder. To run the application double
 Steps to read data.json are the following:
 1. Click on Browse to browse data file
 2. Click Read to read and visualize data on screen.
+3. Once data is displayed, optionally click on Details for further expansion of information and details
 
 ## Authors
 
 * **Mariana Manova** - *Initial work*
 
+## License
+
+This project is licensed under the GNU General Public License v3.0
